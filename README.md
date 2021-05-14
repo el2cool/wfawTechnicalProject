@@ -47,10 +47,15 @@ I've setup the angular application and also created an API to connect it to a my
 	
 		npm install -g @angular/cli
 		
-	Once installed navigate using a terminal to ./wfawTechnicalProject/fawProject/dist/fawProject
+	Once installed navigate using a terminal to ./fawProject/fawProject/dist/fawProject
 	
 	Once here, run the following command,
 	
 		ng serve
 		
 Everything should be setup at this point. Open a browser of your choice and navigate to http://localhost:4200/
+
+
+
+I used the following source to help create this application but heavily adjusted it to fit the criteria of the project.
+https://www.positronx.io/angular-7-httpclient-http-service/
