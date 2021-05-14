@@ -9,7 +9,7 @@ Each record allows you to record a fish length, the sex of the fish (Male or Fem
 You should be able to add/delete/update each fish record.
 Create a README doc in your GitHub repo that explains how to install any dependencies and how to get the app running on my machine.
 
-I've setup the angular application and also created an API to connect it to a mySQL database. Please follow these steps in order to test my work.
+I've setup the angular application and also created an API to connect it to a mySQL database. Please follow these steps in order to test my work. You will also need to download and install nodejs on your machine in order to run my application.
 
 1. Setting up mySQL.
 

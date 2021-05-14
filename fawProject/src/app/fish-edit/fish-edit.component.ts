@@ -1,3 +1,11 @@
+/*********************************
+ * 
+ * Component to manage updating
+ * existing entries in the
+ * database.
+ * 
+ **********************************/
+
 import { Component, OnInit } from '@angular/core';
 import { RestApiService } from "../shared/rest-api.service";
 import { ActivatedRoute, Router } from '@angular/router';

@@ -1,3 +1,10 @@
+/*********************************
+ * 
+ * Component to manage the creation
+ * of new entries.
+ * 
+ **********************************/
+
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { RestApiService } from '../shared/rest-api.service';

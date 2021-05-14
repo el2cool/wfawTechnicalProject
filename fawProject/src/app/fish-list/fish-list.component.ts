@@ -1,3 +1,12 @@
+/*********************************
+ * 
+ * Component to manage displaying
+ * the contents of the database
+ * to the user. Also handles the
+ * deletion of existing entries.
+ * 
+ **********************************/
+
 import { Component, OnInit } from '@angular/core';
 import { RestApiService } from '../shared/rest-api.service';
 
