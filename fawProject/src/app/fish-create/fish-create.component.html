@@ -1,0 +1,36 @@
+<div class="container custom-container">
+    <div class="col-md-12">
+      <h3 class="mb-3 text-center">Create Fish</h3>
+  
+      <div class="form-group">
+        <label >Length:</label>
+        <input type="number" [(ngModel)]="fishDetails.fishLength" class="form-control" placeholder="Length">
+      </div>
+  
+      <div class="form-group">
+        <label for="sex">Sex:</label>
+        <select id="sex" name="sex" [(ngModel)]="fishDetails.sex" class="form-control">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <!--<input type="text" [(ngModel)]="fishDetails.sex" class="form-control" placeholder="Sex"> -->
+      </div>
+  
+      <div class="form-group">
+        <label for="species">Species:</label>
+        <select id="species" name="species" [(ngModel)]="fishDetails.species" class="form-control">
+          <option value="Black Rockfish">Black Rockfish</option>
+          <option value="Chinook Salmon">Chinook Salmon</option>
+          <option value="Dungeness Crab">Dungeness Crab</option>
+        </select>
+        <!--<input type="text" [(ngModel)]="fishDetails.species" class="form-control" placeholder="Species">-->
+      </div>
+  
+      <div class="form-group">
+        <button class="btn btn-success btn-lg btn-block" (click)="addFish()">Create Fish</button>
+      </div>
+  
+    </div>
+  </div>
+
+  

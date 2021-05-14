@@ -1,0 +1,45 @@
+<div class="container custom-container-2">
+
+    <!-- Show it when there is no fish -->
+    <div class="no-data text-center" *ngIf="Fishes.length == 0">
+      <p>There is no fish added yet!</p>
+      <button class="btn btn-outline-primary" routerLink="/create-fish">Add Fish</button>
+    </div>
+  
+    <!-- Fish list table, it hides when there is no fish -->
+    <div *ngIf="Fishes.length !== 0">
+      <h3 class="mb-3 text-center">Fish List</h3>
+  
+      <div class="col-md-12">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Length</th>
+              <th scope="col">Sex</th>
+              <th scope="col">Species</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let fish of Fishes">
+              <td>{{fish.id}}</td>
+              <td>{{fish.fishLength}}</td>
+              <td>{{fish.sex}}</td>
+              <td>{{fish.species}}</td>
+              <td>
+                <div class = "btn-toolbar">
+                  <span class="btn btn-outline-primary edit" routerLink="/fish-edit/{{fish.id}}">Edit</span>
+                  <span class="btn btn-outline-primary delete" (click)="deleteFish(fish.id)">Delete</span>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  
+    </div>
+  
+  </div>
+
+  
