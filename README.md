@@ -47,7 +47,7 @@ I've setup the angular application and also created an API to connect it to a my
 	
 		npm install -g @angular/cli
 		
-	Once installed navigate using a terminal to ./fawProject/fawProject/dist/fawProject
+	Once installed navigate using a terminal to ./wfawTechnicalProject/fawProject/dist/fawProject
 	
 	Once here, run the following command,
 	
